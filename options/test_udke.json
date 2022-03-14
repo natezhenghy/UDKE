@@ -1,0 +1,34 @@
+{
+  "task": "example", // taskname
+  "gpu_ids": [ // gpu id
+    0
+  ],
+  "path": {
+    "root": "release/udke",
+    "pretrained_netG": "x2_iter8" // pretrained path
+  },
+  "data": {
+    "type": "udke",
+    "n_channels": 3, // image channels
+    "k_size": 11, // blur kernel size
+    "test": {
+      "sigma": [
+        0
+      ],
+      "sf": [
+        2
+      ],
+      "dataroot_H": "/home/zhenghy/data/sr/test_bsd100" // test path
+    }
+  },
+  "netG": {
+    "n_iter": 8, // stages
+    "nc_x": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "nb": 4 // nb
+  }
+}
