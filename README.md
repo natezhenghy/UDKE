@@ -13,9 +13,9 @@ The implementation of UDKE is based on the awesome Image Restoration Toolbox [[K
 ## Testing
 **Step 1**
 
-- Download testing kernels from [[OneDrive]](......) or [[BaiduPan]](......) (password: ****).
+- Download testing kernels from [[OneDrive]](https://1drv.ms/u/s!ApI9l49EgrUbkesl_RplE66v51o7Wg?e=IrSexF).
 - Unzip downloaded testing kernels and put the folders into ```./kernels/test```
-- Download pretrained models from [[OneDrive]](......) or [[BaiduPan]](......) (password: ****).
+- Download pretrained models from [[OneDrive]](https://1drv.ms/u/s!ApI9l49EgrUbkesl_RplE66v51o7Wg?e=IrSexF).
 - Unzip downloaded file and put the folders into ```./release/udke```
 
 **Step 2**
