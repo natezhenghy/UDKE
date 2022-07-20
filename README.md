@@ -1,7 +1,7 @@
 # Unfolded Deep Kernel Estimation for Blind Image Super-resolution
-Hongyi Zheng, Hongwei Yong, Lei Zhang, "Unfolded Deep Kernel Estimation for Blind Image Super-resolution".
+Hongyi Zheng, Hongwei Yong, Lei Zhang, "Unfolded Deep Kernel Estimation for Blind Image Super-resolution". Accepted by ECCV2022.
 
-[[arxiv]](https://arxiv.org/abs/2203.05568)
+[[paper]](https://www4.comp.polyu.edu.hk/~cslzhang/paper/ECCV2022_UDKE.pdf) [[supp]](https://www4.comp.polyu.edu.hk/~cslzhang/paper/ECCV2022_UDKE_supp.pdf)
 
 The implementation of UDKE is based on the awesome Image Restoration Toolbox [[KAIR]](https://github.com/cszn/KAIR).
 
@@ -32,3 +32,5 @@ Configure ```options/test_udke.json```. Important settings:
 ```bash
 python test_udke.py
 ```
+## Training
+Training code will be released soon.
