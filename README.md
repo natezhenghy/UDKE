@@ -33,4 +33,20 @@ Configure ```options/test_udke.json```. Important settings:
 python test_udke.py
 ```
 ## Training
-Training code will be released soon.
+
+**Step 1**
+
+Configure ```options/train_udke.json```. Important settings:
+- task: task name.
+- path/root: path to save the tasks.
+- data/train/sigma: noise level
+- data/train/sf: scale factor
+- data/train/dataroot_h: path to traing sets
+- data/test/sigma: noise level
+- data/test/sf: scale factor
+- data/test/dataroot_h: path to testing sets
+
+**Step 2**
+```bash
+python train_udke.py
+```
